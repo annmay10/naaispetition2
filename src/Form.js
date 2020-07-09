@@ -4,27 +4,47 @@ export default class Form extends React.Component {
     state = {
         firstName: "",
         lastName: "",
-        username: "",
+        state: "",
         email: "",
-        password: ""
+        university: ""
     };
+    handleChange = e => {
+        let firstnames = [...this.state.firstName];
+        let lastnames = [...this.state.lastName];
+        let states = [...this.state.state];
+        let universities = [...this.state.university];
+        this.setState({ firstnames }, () => console.log(this.state.firstName));
+        this.setState({ lastnames }, () => console.log(this.state.firstName));
+        this.setState({ states }, () => console.log(this.state.email));
+        this.setState({ universities }, () => console.log(this.state.university));
 
+    };
+    addEntry = (e) => {
+        this.setState((prevState) => ({
+            firstnames: [...prevState.firstName, {firstName:""}],
+            lastnames: [...prevState.lastName, {lastName:""}],
+            states: [...prevState.state, {state:""}],
+            universities: [...prevState.university, {university: ""}]
+        }));
+    };
     onSubmit = e => {
+
+
         e.preventDefault();
         // this.props.onSubmit(this.state);
         this.setState({
             firstName: "",
             lastName: "",
-            username: "",
+            state: "",
             email: "",
-            password: ""
+            university: ""
         });
         this.props.onChange({
             firstName: "",
             lastName: "",
-            username: "",
+            state: "",
             email: "",
-            password: ""
+            university: ""
         });
     };
 
