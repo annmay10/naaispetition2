@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="90496084-ee5d-440e-ae68-1f5f680dc7b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/csv/tempCSV.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/csv/tempCSV.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unis.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/unis.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594398145708</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed manifest and index to change message">
+      <created>1594406756221</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594406756221</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,13 +121,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added arrays to store data" />
     <MESSAGE value="Made spaces changes, changed uni dropdown and added media" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made spaces changes, changed uni dropdown and added media" />
+    <MESSAGE value="Changed manifest and index to change message" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed manifest and index to change message" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="301" y="55" key="CommitChangelistDialog2" timestamp="1594398145565">
+    <state x="301" y="55" key="CommitChangelistDialog2" timestamp="1594406756117">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="301" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1594398145565" />
+    <state x="301" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1594406756117" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1594406100650">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -136,10 +145,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1594406100649" />
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1594398151635">
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1594406761780">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1594398151635" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1594406761780" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1594406672302">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

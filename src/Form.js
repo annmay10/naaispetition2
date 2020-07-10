@@ -51,7 +51,6 @@ export default class Form extends React.Component {
                             <a href={gmailMsg}>Open in Gmail</a>
                         </div>
                     </div>
-                    {this.showGmailWarning()}
                 </div>
             )
         }
@@ -195,6 +194,7 @@ export default class Form extends React.Component {
                     <button onClick={e => this.onSubmit(e)} style = {{margin:20}}>Generate template</button>
                 </form>
                 {this.showEmail()}
+                {this.showGmailWarning()}
                 {this.showError()}
             </div>
         );
