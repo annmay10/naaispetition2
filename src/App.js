@@ -27,7 +27,7 @@ class App extends Component {
             <Form onChange={fields => this.onChange(fields)} />
             <div>
                 <h4>Powered by the <a href="https://naais.org">North American Association of Indian Students</a>.</h4>
-                <h5>Developed by <a href="https://www.linkedin.com/in/amanwali"> Aman Wali</a> & <a href="https://www.linkedin.com/in/annmay-sharma-b1b340191/">Annmay Sharma</a></h5>
+                <h5>Developed by Aman Wali & <a href="https://www.linkedin.com/in/annmay-sharma-b1b340191/">Annmay Sharma</a></h5>
             </div>
         </div>
     );
