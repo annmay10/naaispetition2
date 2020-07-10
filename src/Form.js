@@ -1,5 +1,6 @@
 import React from "react";
 import data from "./unis.json";
+import {isMobile} from "react-device-detect"
 
 export default class Form extends React.Component {
 
@@ -40,14 +41,29 @@ export default class Form extends React.Component {
 
             return (
                 <div>
-                    <div className="ui labeled icon button">
-                        <i class="envelope icon"></i>
-                        <a href={mailMsg}>Open in Mail</a>
+                    <div>
+                        <div className="ui labeled icon button">
+                            <i class="envelope icon"></i>
+                            <a href={mailMsg}>Open in Mail</a>
+                        </div>
+                        <div className="ui button">
+                            <i className="google icon"></i>
+                            <a href={gmailMsg}>Open in Gmail</a>
+                        </div>
                     </div>
-                    <div className="ui button">
-                        <i className="google icon"></i>
-                        <a href={gmailMsg}>Open in Gmail</a>
-                    </div>
+                    {this.showGmailWarning()}
+                </div>
+            )
+        }
+    }
+
+    showGmailWarning = () => {
+        if(isMobile){
+            return(
+                <div className="ui warning message" style={{display: 'flex', justifyContent: 'center'}}>
+                    <h4>
+                        To open in Gmail on a phone, please enable desktop view in your browser.
+                    </h4>
                 </div>
             )
         }
