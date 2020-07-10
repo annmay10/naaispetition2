@@ -13,6 +13,7 @@ export default class Form extends React.Component {
         selectedOption: "",
         submitted: false,
         data: [],
+        filteredData: [],
         error: false,
     };
 
@@ -28,7 +29,7 @@ export default class Form extends React.Component {
     showEmail = () => {
         if(this.state.submitted === true) {
             var subject = "We Ask You To Sue The Government";
-            var obj = this.state.data.find(uni => uni.Name === this.state.university);
+            var obj = this.state.filteredData.find(uni => uni.Name === this.state.university);
             if (obj.E1.length !== 0|| obj.E2.length !== 0 || obj.E3.length !== 0 || obj.E4.length !== 0 || obj.E5.length !== 0|| obj.E6.length !== 0) {
                 var to = obj.E1+','+obj.E2+','+obj.E3+','+obj.E4 + obj.E5 + obj.E6;
             } else {
@@ -43,7 +44,7 @@ export default class Form extends React.Component {
                 <div>
                     <div>
                         <div className="ui labeled icon button">
-                            <i class="envelope icon"></i>
+                            <i className="envelope icon"></i>
                             <a href={mailMsg}>Open in Mail</a>
                         </div>
                         <div className="ui button">
@@ -82,7 +83,11 @@ export default class Form extends React.Component {
 
     showUnis = () => {
         var unis = [];
-        this.state.data.map((item, key) =>{
+        console.log("ABout to show unis");
+        console.log(this.state.filteredData);
+        console.log("Selected uni:");
+        console.log(this.state.university);
+        this.state.filteredData.map((item, key) =>{
             unis.push(item.Name);
         });
         return unis.map((item, key) =>{
@@ -114,11 +119,20 @@ export default class Form extends React.Component {
     };
 
     handleUniChange = (event) => {
-        this.setState({university: event.target.value})
+        this.setState({university: event.target.value, submitted: false})
     };
 
     handleStateChange = (event) => {
-        this.setState({state: event.target.value})
+        var filtered = [];
+        var data = this.state.data;
+        data.map((item, key) => {
+            if(item.State === event.target.value){
+                filtered.push(item)
+            }
+        });
+        console.log("FILTERED IS");
+        console.log(filtered);
+        this.setState({state: event.target.value, filteredData: filtered, university: "Select University", submitted: false})
     };
 
     namePicker = () => {
@@ -187,7 +201,7 @@ export default class Form extends React.Component {
                         University
                     </div>
                     <select className="ui required fluid search dropdown" style={{fontSize: '17px', padding: 0}} onChange={this.handleUniChange}>
-                        <option value="">{this.state.university}</option>
+                        <option value={this.state.university}>{this.state.university}</option>
                         {this.showUnis()}
                     </select>
 
