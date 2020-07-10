@@ -26,13 +26,14 @@ class App extends Component {
             <h3 className="ui header" style={{padding:10}}>Put pressure on your institution's administration by sending our pre-drafted statement as a campus club, association, fraternity or even as an individual to your president, provost and general counsel.   The action of some universities cannot compensate for your institution's silence. We urge you all to take action.      </h3>
             <h5> None of the information entered here will ever be stored. All processing is done client-side.</h5>
             <Form onChange={fields => this.onChange(fields)} />
+            <div className="ui fluid image">
+                <img src={require('./images/naaispetition.png')} style = {{padding:10, margin:10}}/>
+            </div>
             <div>
                 <h4>Powered by the <a href="https://naais.org">North American Association of Indian Students</a>.</h4>
                 <h5>Developed by Aman Wali & <a href="https://www.linkedin.com/in/annmay-sharma-b1b340191/">Annmay Sharma</a></h5>
             </div>
-            <div className="ui fluid image">
-                <img src={require('/Users/amitabh/IdeaProjects/naaispetition/src/images/naaispetition.png')} style = {{padding:10, margin:10}}/>
-            </div>
+
         </div>
     );
   }
