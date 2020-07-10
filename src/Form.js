@@ -8,15 +8,20 @@ export default class Form extends React.Component {
         lastName: "",
         state: "Select State",
         email: "",
-        university: "A T Still University of Health Sciences",
+        university: "Select University",
         selectedOption: "",
         submitted: false,
-        data: []
+        data: [],
+        error: false,
     };
 
     onSubmit = e => {
         e.preventDefault();
-        this.setState({submitted: true});
+        if(this.state.firstName !== "" && this.state.state !== "Select State" && this.state.university !== "Select University") {
+            this.setState({submitted: true, error: false});
+        }else{
+            this.setState({error: true});
+        }
     };
 
     showEmail = () => {
@@ -48,6 +53,18 @@ export default class Form extends React.Component {
         }
     }
 
+    showError = () => {
+        if(this.state.error === true){
+            return(
+                <div className="ui negative message" style={{display: 'flex', justifyContent: 'center'}}>
+                    <h4>
+                        Please make sure all fields are filled.
+                    </h4>
+                </div>
+            )
+        }
+    }
+
     showUnis = () => {
         var unis = [];
         this.state.data.map((item, key) =>{
@@ -64,9 +81,7 @@ export default class Form extends React.Component {
         const states = ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','MD','MA','MI','MN','MS','MO','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY'];
         return states.map((item, key) =>{
             return(
-                <option value={item} onClick={() =>{
-                    this.setState({state: item})
-                }}>{item}</option>
+                <option value={item}>{item}</option>
             )
         });
     };
@@ -95,7 +110,7 @@ export default class Form extends React.Component {
         if(this.state.selectedOption === 'option1'){
             return(
                 <div className="fields" style={{display: 'flex', justifyContent: 'center'}}>
-                    <div className="field">
+                    <div className="required field">
                         <label>Name of Organization</label>
                         <input type="text" name="Org-name" placeholder="type here.." onChange={this.onChangeName.bind(this)}/>
                     </div>
@@ -106,7 +121,7 @@ export default class Form extends React.Component {
                 <div className="ui column stackable center page grid">
                     <div className="forty wide column">
                          <div className="two fields">
-                            <div className="twelve wide field">
+                            <div className="twelve wide required field">
                                 <label>First Name</label>
                                 <input type="text" name="first-name" placeholder="type here.." onChange={this.onChangeName.bind(this)}/>
                           </div>
@@ -161,9 +176,10 @@ export default class Form extends React.Component {
                         {this.showUnis()}
                     </select>
 
-                    <button onClick={e => this.onSubmit(e)} style = {{margin:20}}>Submit</button>
+                    <button onClick={e => this.onSubmit(e)} style = {{margin:20}}>Generate template</button>
                 </form>
                 {this.showEmail()}
+                {this.showError()}
             </div>
         );
     }
