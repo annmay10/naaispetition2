@@ -1,6 +1,6 @@
 {
   "name": "naaispetition",
-  "homepage": "http://naais.org/naaispetition",
+  "homepage": "http://naais.org/petition",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

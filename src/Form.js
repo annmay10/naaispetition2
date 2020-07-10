@@ -83,10 +83,6 @@ export default class Form extends React.Component {
 
     showUnis = () => {
         var unis = [];
-        console.log("ABout to show unis");
-        console.log(this.state.filteredData);
-        console.log("Selected uni:");
-        console.log(this.state.university);
         this.state.filteredData.map((item, key) =>{
             unis.push(item.Name);
         });
@@ -130,8 +126,6 @@ export default class Form extends React.Component {
                 filtered.push(item)
             }
         });
-        console.log("FILTERED IS");
-        console.log(filtered);
         this.setState({state: event.target.value, filteredData: filtered, university: "Select University", submitted: false})
     };
 

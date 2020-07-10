@@ -780,16 +780,6 @@
     "E6": ""
   },
   {
-    "Name": "American Academy McAllister Institute of Funeral Service",
-    "State": "NY",
-    "E1": "",
-    "E2": "",
-    "E3": "",
-    "E4": "",
-    "E5": "",
-    "E6": ""
-  },
-  {
     "Name": "American Academy of Acupuncture and Oriental Medicine",
     "State": "MN",
     "E1": "chapaomd@gmail.com",
@@ -3400,7 +3390,7 @@
     "E6": ""
   },
   {
-    "Name": "Bexley Hall Seabury Western Theological Seminary Federation  Inc.",
+    "Name": "Bexley Hall Seabury Western Theological Seminary Federation Inc.",
     "State": "IL",
     "E1": "",
     "E2": "",
@@ -3852,7 +3842,7 @@
   {
     "Name": "Boston University",
     "State": "MA",
-    "E1": "",
+    "E1": "president@bu.edu",
     "E2": "",
     "E3": "",
     "E4": "",
@@ -4922,7 +4912,7 @@
   {
     "Name": "California State University-Fullerton",
     "State": "CA",
-    "E1": "",
+    "E1": "presidentvirjee@fullerton.edu",
     "E2": "",
     "E3": "",
     "E4": "",
@@ -4962,7 +4952,7 @@
   {
     "Name": "California State University-Northridge",
     "State": "CA",
-    "E1": "",
+    "E1": "president@csun.edu",
     "E2": "",
     "E3": "",
     "E4": "",
@@ -7290,7 +7280,7 @@
     "E6": ""
   },
   {
-    "Name": "Clayton  State University",
+    "Name": "Clayton State University",
     "State": "GA",
     "E1": "",
     "E2": "",
@@ -7492,7 +7482,7 @@
   {
     "Name": "Coastal Carolina Community College",
     "State": "NC",
-    "E1": "heatherlyd@coastalcarolina.edu;  (910) 938-6210",
+    "E1": "heatherlyd@coastalcarolina.edu; (910) 938-6210",
     "E2": "derosiab@coastalcarolina.edu;(910) 938-6788",
     "E3": "",
     "E4": "",
@@ -7592,7 +7582,7 @@
   {
     "Name": "Coker University",
     "State": "SC",
-    "E1": "president@coker.edu;  843-383-8010",
+    "E1": "president@coker.edu; 843-383-8010",
     "E2": "843-383-8012; 1-800-571-7314",
     "E3": "",
     "E4": "",
@@ -7782,10 +7772,10 @@
   {
     "Name": "College of DuPage",
     "State": "IL",
-    "E1": "officeofthepresident@cod.edu; (630)942-2200;  caputob@cod.edu",
+    "E1": "officeofthepresident@cod.edu; (630)942-2200; caputob@cod.edu",
     "E2": "curtis-chavezm@cod.edu;(630)942-3535",
     "E3": "",
-    "E4": "hollowedl@cod.edu;  (630)942-2800",
+    "E4": "hollowedl@cod.edu; (630)942-2800",
     "E5": "",
     "E6": ""
   },
@@ -7802,7 +7792,7 @@
   {
     "Name": "College of Lake County",
     "State": "IL",
-    "E1": "lsuddick@clcillinois.edu; \n847/543-2201",
+    "E1": "lsuddick@clcillinois.edu; \n 847/543-2201",
     "E2": "",
     "E3": "",
     "E4": "",
@@ -7843,7 +7833,7 @@
     "Name": "College of Our Lady of the Elms",
     "State": "MA",
     "E1": "tel:413-265-2293",
-    "E2": "breauw@elms.edu;candia-baileya@elms.edu;\nwinterst@elms.edu",
+    "E2": "breauw@elms.edu;candia-baileya@elms.edu;\n winterst@elms.edu",
     "E3": "",
     "E4": "",
     "E5": "",
@@ -8462,16 +8452,6 @@
   {
     "Name": "Columbus Technical College",
     "State": "GA",
-    "E1": "",
-    "E2": "",
-    "E3": "",
-    "E4": "",
-    "E5": "",
-    "E6": ""
-  },
-  {
-    "Name": "Commonwealth Institute of Funeral Service",
-    "State": "TX",
     "E1": "",
     "E2": "",
     "E3": "",
@@ -9660,16 +9640,6 @@
     "E6": ""
   },
   {
-    "Name": "Dallas Institute of Funeral Service",
-    "State": "TX",
-    "E1": "",
-    "E2": "",
-    "E3": "",
-    "E4": "",
-    "E5": "",
-    "E6": ""
-  },
-  {
     "Name": "Dallas Nursing Institute",
     "State": "TX",
     "E1": "",
@@ -10045,7 +10015,7 @@
     "E1": "",
     "E2": "president@depaul.edu ; A. Gabriel Esteban",
     "E3": "",
-    "E4": "Contract Review Email: contractreview@depaul.edu",
+    "E4": "Contract Review Email: contractreview@depaul.edu",
     "E5": "",
     "E6": ""
   },
@@ -10073,7 +10043,7 @@
     "Name": "Des Moines University-Osteopathic Medical Center",
     "State": "IA",
     "E1": "Akins, Ralitsa;",
-    "E2": "Angela L. Walker Franklin ; \t@dmu.edu",
+    "E2": "Angela L. Walker Franklin ; @dmu.edu",
     "E3": "",
     "E4": "",
     "E5": "",
@@ -10093,7 +10063,7 @@
     "Name": "Design Institute of San Diego",
     "State": "CA",
     "E1": "",
-    "E2": "Margot DoucetteCEO margot@disd.edu",
+    "E2": "Margot DoucetteCEO margot@disd.edu",
     "E3": "",
     "E4": "",
     "E5": "",
@@ -10363,7 +10333,7 @@
     "Name": "Divine Word College",
     "State": "IA",
     "E1": "",
-    "E2": "Fr. Tom Ascheman, SVD ; \ntascheman@dwci.edu",
+    "E2": "Fr. Tom Ascheman, SVD ; \n tascheman@dwci.edu",
     "E3": "",
     "E4": "",
     "E5": "",
@@ -10383,7 +10353,7 @@
     "Name": "Doane University",
     "State": "NE",
     "E1": "",
-    "E2": "Jacque Carter ; jacque.carter@doane.edu",
+    "E2": "Jacque Carter ; jacque.carter@doane.edu",
     "E3": "",
     "E4": "",
     "E5": "",
@@ -10443,7 +10413,7 @@
     "Name": "Dominican University of California",
     "State": "CA",
     "E1": "",
-    "E2": "Mary B. Marcy ; president@dominican.edu",
+    "E2": "Mary B. Marcy ; president@dominican.edu",
     "E3": "",
     "E4": "",
     "E5": "",
@@ -10533,7 +10503,7 @@
     "Name": "Drury University",
     "State": "MO",
     "E1": "",
-    "E2": "Dr. James Timothy Cloyd ; presidentsoffice@drury.edu",
+    "E2": "Dr. James Timothy Cloyd ; presidentsoffice@drury.edu",
     "E3": "",
     "E4": "",
     "E5": "",
@@ -12292,7 +12262,7 @@
   {
     "Name": "Florida International University",
     "State": "FL",
-    "E1": "",
+    "E1": "Mark.Rosenberg@fiu.ed",
     "E2": "",
     "E3": "",
     "E4": "",
@@ -14180,16 +14150,6 @@
     "E6": ""
   },
   {
-    "Name": "Gupton Jones College of Funeral Service",
-    "State": "GA",
-    "E1": "",
-    "E2": "",
-    "E3": "",
-    "E4": "",
-    "E5": "",
-    "E6": ""
-  },
-  {
     "Name": "Gurnick Academy of Medical Arts",
     "State": "CA",
     "E1": "",
@@ -15872,7 +15832,7 @@
   {
     "Name": "Indiana University-Bloomington",
     "State": "IN",
-    "E1": "",
+    "E1": "iupres@iu.edu",
     "E2": "",
     "E3": "",
     "E4": "",
@@ -16362,7 +16322,7 @@
   {
     "Name": "Iowa State University",
     "State": "IA",
-    "E1": "",
+    "E1": "wwinters@iastate.edu",
     "E2": "",
     "E3": "",
     "E4": "",
@@ -20662,7 +20622,7 @@
   {
     "Name": "Michigan School of Psychology",
     "State": "MI",
-    "E1": "fbrown@mispp.edu       fbrown@msp.edu",
+    "E1": "fbrown@mispp.edu fbrown@msp.edu",
     "E2": "dzalapi@msp.edu",
     "E3": "",
     "E4": "",
@@ -20714,16 +20674,6 @@
     "State": "OK",
     "E1": "president@macu.edu",
     "E2": "sharon.lease@macu.ed",
-    "E3": "",
-    "E4": "",
-    "E5": "",
-    "E6": ""
-  },
-  {
-    "Name": "Mid-America College of Funeral Service",
-    "State": "IN",
-    "E1": "",
-    "E2": "",
     "E3": "",
     "E4": "",
     "E5": "",
@@ -21113,7 +21063,7 @@
     "Name": "Milwaukee Career College",
     "State": "WI",
     "E1": "JTakahashi@mkecc.edu",
-    "E2": "JTakahashi@mkecc.edu    jack.takahashi@mkecc.edu",
+    "E2": "JTakahashi@mkecc.edu jack.takahashi@mkecc.edu",
     "E3": "",
     "E4": "",
     "E5": "",
@@ -21462,8 +21412,8 @@
   {
     "Name": "Mitchell Hamline School of Law",
     "State": "MN",
-    "E1": "anthony.niedwiecki @mitchellhamline.edu",
-    "E2": "kate.kruse @mitchellhamline.edu",
+    "E1": "anthony.niedwiecki @mitchellhamline.edu",
+    "E2": "kate.kruse @mitchellhamline.edu",
     "E3": "",
     "E4": "",
     "E5": "",
@@ -23402,7 +23352,7 @@
   {
     "Name": "North Carolina State University at Raleigh",
     "State": "NC",
-    "E1": "l: pjteal@ncsu.edu",
+    "E1": "l: pjteal@ncsu.edu",
     "E2": "provost-communications@ncsu.edu",
     "E3": "",
     "E4": "",
@@ -27492,7 +27442,7 @@
   {
     "Name": "Purdue University-Main Campus",
     "State": "IN",
-    "E1": "",
+    "E1": "president@purdue.edu",
     "E2": "",
     "E3": "",
     "E4": "",
@@ -28982,7 +28932,7 @@
   {
     "Name": "Rutgers University-New Brunswick",
     "State": "NJ",
-    "E1": "",
+    "E1": "brian.ballentine@rutgers.edu",
     "E2": "",
     "E3": "",
     "E4": "",
@@ -29842,7 +29792,7 @@
   {
     "Name": "San Francisco State University",
     "State": "CA",
-    "E1": "",
+    "E1": "president@sfsu.edu",
     "E2": "",
     "E3": "",
     "E4": "",
@@ -30112,7 +30062,7 @@
   {
     "Name": "Savannah College of Art and Design",
     "State": "GA",
-    "E1": "",
+    "E1": "communications@scad.edu",
     "E2": "",
     "E3": "",
     "E4": "",
@@ -30212,7 +30162,7 @@
   {
     "Name": "School of Visual Arts",
     "State": "NY",
-    "E1": "",
+    "E1": "president@sva.edu",
     "E2": "",
     "E3": "",
     "E4": "",
@@ -32260,7 +32210,7 @@
     "E6": ""
   },
   {
-    "Name": "Springfield College-Regional  Online  and Continuing Education",
+    "Name": "Springfield College-Regional Online and Continuing Education",
     "State": "MA",
     "E1": "",
     "E2": "",
@@ -32952,7 +32902,7 @@
   {
     "Name": "Stony Brook University",
     "State": "NY",
-    "E1": "",
+    "E1": "Michael.Bernstein@stonybrook.edu",
     "E2": "",
     "E3": "",
     "E4": "",
@@ -33272,7 +33222,7 @@
   {
     "Name": "SUNY Buffalo State",
     "State": "NY",
-    "E1": "",
+    "E1": "president@buffalo.edu",
     "E2": "",
     "E3": "",
     "E4": "",
@@ -33562,7 +33512,7 @@
   {
     "Name": "Syracuse University",
     "State": "NY",
-    "E1": "",
+    "E1": "chancellor@syr.edu",
     "E2": "",
     "E3": "",
     "E4": "",
@@ -34762,7 +34712,7 @@
   {
     "Name": "The University of Texas at Austin",
     "State": "TX",
-    "E1": "",
+    "E1": "president@utexas.edu",
     "E2": "",
     "E3": "",
     "E4": "",
@@ -37160,7 +37110,7 @@
     "E6": ""
   },
   {
-    "Name": "University of Maryland  Baltimore",
+    "Name": "University of Maryland Baltimore",
     "State": "MD",
     "E1": "",
     "E2": "jjohnson@umbc.edu",
@@ -37202,7 +37152,7 @@
   {
     "Name": "University of Massachusetts-Amherst",
     "State": "MA",
-    "E1": "",
+    "E1": "chancellor@umass.edu",
     "E2": "",
     "E3": "",
     "E4": "",
@@ -40472,7 +40422,7 @@
   {
     "Name": "West Virginia University",
     "State": "WV",
-    "E1": "",
+    "E1": "presidentsoffice@mail.wvu.edu",
     "E2": "",
     "E3": "",
     "E4": "",
