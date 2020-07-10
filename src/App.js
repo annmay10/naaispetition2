@@ -25,7 +25,7 @@ class App extends Component {
             <h1 className="ui red header">How Do You Get Your School To Sue?</h1>
             <h2 className="ui header">Put pressure on your institution's administration by sending our pre-drafted statement as a campus club, association, fraternity or even as an individual to your president, provost and general counsel.   The action of some universities cannot compensate for your institution's silence. We urge you all to take action.      </h2>
             <Form onChange={fields => this.onChange(fields)} />
-            <div style={{position: "absolute", bottom: "0", width: "100%"}}>
+            <div>
                 <h4>Powered by the <a href="https://naais.org">North American Association of Indian Students</a>.</h4>
                 <h5>Developed by <a href="https://www.linkedin.com/in/amanwali"> Aman Wali</a> & <a href="https://www.linkedin.com/in/annmay-sharma-b1b340191/">Annmay Sharma</a></h5>
             </div>

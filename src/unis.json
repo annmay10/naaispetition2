@@ -1,0 +1,942 @@
+[
+  {
+    "Name": "McDaniel College",
+    "State": "MD",
+    "E1": "presoffice@mcdaniel.edu",
+    "E2": "jjasken@mcdaniel.edu",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "McDowell Technical Community College",
+    "State": "NC",
+    "E1": "johngossett@mcdowelltech.edu",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "McHenry County College",
+    "State": "IL",
+    "E1": "cgabbard@mchenry.edu",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "McKendree University",
+    "State": "IL",
+    "E1": "dcdobbins@mckendree.edu",
+    "E2": "cmbahr@mckendree.edu",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "McLennan Community College",
+    "State": "TX",
+    "E1": "jmckown@mclennan.edu",
+    "E2": "fhills@mclennan.edu",
+    "E3": "†lstanford@mclennan.edu",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "McMurry University",
+    "State": "TX",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "McNeese State University",
+    "State": "LA",
+    "E1": "",
+    "E2": "madrian@mcneese.edu",
+    "E3": "knicholas@mcneese.edu",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "McPherson College",
+    "State": "KS",
+    "E1": "†schneidm@mcpherson.edu",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "MCPHS University",
+    "State": "MA",
+    "E1": "richard.lessard@mcphs.edu",
+    "E2": "caroline.zeind@mcphs.edu",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Meadville Lombard Theological School",
+    "State": "IL",
+    "E1": "eortega@meadville.edu",
+    "E2": "swelch@meadville.edu",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Mechon L'hoyroa",
+    "State": "NY",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Med Academy",
+    "State": "FL",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Medaille College",
+    "State": "NY",
+    "E1": "Kenneth.M.Macur@medaille.edu",
+    "E2": "lori.v.quigley@medaille.edu",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "MediaTech Institute-Dallas",
+    "State": "TX",
+    "E1": "",
+    "E2": "wes@mediatech.edu",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "MediaTech Institute-Houston",
+    "State": "TX",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Medical Allied Career Center",
+    "State": "CA",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Medical College of Wisconsin",
+    "State": "WI",
+    "E1": "officeofthepresident@mcw.edu",
+    "E2": "anne.brown@mcw.edu",
+    "E3": "",
+    "E4": "anne.brown@mcw.edu",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Medical Prep Institute of Tampa Bay",
+    "State": "FL",
+    "E1": "†tomas.lozano@polymtl.ca",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Medical University of South Carolina",
+    "State": "SC",
+    "E1": "coledj@musc.edu",
+    "E2": "cawleypj@musc.edu",
+    "E3": "",
+    "E4": "drachmar@musc.edu",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "MedQuest College",
+    "State": "KY",
+    "E1": "bkepley@medquestcollege.edu",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Meharry Medical College",
+    "State": "TN",
+    "E1": "officeofthepresident@mmc.edu",
+    "E2": "†pmillet@mmc.edu",
+    "E3": "cqualls@mmc.edu",
+    "E4": "isamuel@mmc.edu",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Memphis College of Art",
+    "State": "TN",
+    "E1": "",
+    "E2": "lzyriek@mca.edu",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Memphis Theological Seminary",
+    "State": "TN",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Mendocino College",
+    "State": "CA",
+    "E1": "ecichocki@mendocino.edu",
+    "E2": "uvelasco@mendocino.edu",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Menlo College",
+    "State": "CA",
+    "E1": "steven.weiner@menlo.edu",
+    "E2": "linda.teutschel@menlo.edu",
+    "E3": "margaret.mcfarland@menlo.edu",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Merced College",
+    "State": "CA",
+    "E1": "chris.vitelli@mccd.edu",
+    "E2": "asmcvp@campus.mccd.edu",
+    "E3": "†asmcvpja@campus.mccd.edu",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Mercer County Community College",
+    "State": "NJ",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Mercer University",
+    "State": "GA",
+    "E1": "",
+    "E2": "Davis_DS@mercer.edu",
+    "E3": "",
+    "E4": "Solomon_wg@mercer.edu",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Mercy College",
+    "State": "NY",
+    "E1": "",
+    "E2": "sloving@mercy.edu",
+    "E3": "",
+    "E4": "kbowes@mercy.edu",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Mercy College of Health Sciences",
+    "State": "IA",
+    "E1": "dfiore@mercydesmoines.org",
+    "E2": "NKertz@mercydesmoines.org",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Mercy College of Ohio",
+    "State": "OH",
+    "E1": "thall@mercy.edu",
+    "E2": "jherrera@mercy.edu",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Mercyhurst University",
+    "State": "PA",
+    "E1": "",
+    "E2": "jhoward@mercyhurst.edu",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Mercyhurst University-North East Campus",
+    "State": "PA",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Meredith College",
+    "State": "NC",
+    "E1": "president@meredith.edu",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Meridian College",
+    "State": "FL",
+    "E1": "†thuebner@meridiancc.edu",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Meridian Community College",
+    "State": "MS",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Meridian Institute of Surgical Assisting",
+    "State": "TN",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Meridian University",
+    "State": "CA",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Merrimack College",
+    "State": "MA",
+    "E1": "officeofthepresident@merrimack.edu",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Merritt College",
+    "State": "CA",
+    "E1": "dmjohnson@peralta.edu",
+    "E2": "Ichavez@peralta.edu",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Mesa Community College",
+    "State": "AZ",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Mesabi Range College",
+    "State": "MN",
+    "E1": "michael.raich@nhed.edu",
+    "E2": "s.mccauley@mesabirange.edu",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Mesalands Community College",
+    "State": "NM",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Mesivta of Eastern Parkway-Yeshiva Zichron Meilech",
+    "State": "NY",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Mesivta Torah Vodaath Rabbinical Seminary",
+    "State": "NY",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Mesivtha Tifereth Jerusalem of America",
+    "State": "NY",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Messenger College",
+    "State": "TX",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Messiah College",
+    "State": "PA",
+    "E1": "president@messiah.edu",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Methodist College",
+    "State": "IL",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Methodist Theological School in Ohio",
+    "State": "OH",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Methodist University",
+    "State": "NC",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Metro Business College-Cape Girardeau",
+    "State": "MO",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Metro Business College-Jefferson City",
+    "State": "MO",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Metro Business College-Rolla",
+    "State": "MO",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Metropolitan College of New York",
+    "State": "NY",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Metropolitan Community College Area",
+    "State": "NE",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Metropolitan Community College-Kansas City",
+    "State": "MO",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Metropolitan State University",
+    "State": "MN",
+    "E1": "",
+    "E2": "arthurv@metrostate.edu",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Metropolitan State University of Denver",
+    "State": "CO",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "MGH Institute of Health Professions",
+    "State": "MA",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Miami Dade College",
+    "State": "FL",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Miami International University of Art & Design-Art Institute Dallas",
+    "State": "TX",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Miami Media School",
+    "State": "FL",
+    "E1": "rmills@beonair.com",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Miami Regional University",
+    "State": "FL",
+    "E1": "administration@mru.edu osanchez@mru.edu",
+    "E2": "financialaid@mru.edu",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Miami University-Hamilton",
+    "State": "OH",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "parkerrl@MiamiOH.edu",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Miami University-Middletown",
+    "State": "OH",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "theobask@MiamiOH.edu",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Miami University-Oxford",
+    "State": "OH",
+    "E1": "",
+    "E2": "tsireldl@MiamiOH.edu",
+    "E3": "",
+    "E4": "generalcounsel@miamioh.edu",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "MIAT College of Technology",
+    "State": "MI",
+    "E1": "jwillis@miat.edu",
+    "E2": "cpipesh@miat.edu",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Michigan School of Psychology",
+    "State": "MI",
+    "E1": "fbrown@mispp.edu       fbrown@msp.edu",
+    "E2": "dzalapi@msp.edu",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Michigan State University",
+    "State": "MI",
+    "E1": "PresidentStanley@msu.edu",
+    "E2": "tfrazier@msu.edu",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Michigan State University-College of Law",
+    "State": "MI",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Michigan Technological University",
+    "State": "MI",
+    "E1": "†koubek@mtu.edu",
+    "E2": "jeh@mtu.edu",
+    "E3": "",
+    "E4": "shschult@mtu.edu",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Mid Michigan College",
+    "State": "MI",
+    "E1": "†chammond@midmich.edu",
+    "E2": "mmiller@midmich.edu",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Mid-America Christian University",
+    "State": "OK",
+    "E1": "president@macu.edu",
+    "E2": "sharon.lease@macu.ed",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Mid-America College of Funeral Service",
+    "State": "IN",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Mid-Atlantic Christian University",
+    "State": "NC",
+    "E1": "john.maurice@macuniversity.edu",
+    "E2": "jay.banks@macuniversity.edu",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Mid-Plains Community College",
+    "State": "NE",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Mid-South Christian College",
+    "State": "TN",
+    "E1": "griffin.larry@midsouthcc.org",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Mid-State Technical College",
+    "State": "WI",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "MidAmerica Nazarene University",
+    "State": "KS",
+    "E1": "dspittal@mnu.edu",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Middle Georgia State University",
+    "State": "GA",
+    "E1": "president@mga.edu",
+    "E2": "jennifer.brannon@mga.edu",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Middle Tennessee School of Anesthesia Inc",
+    "State": "TN",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Middle Tennessee State University",
+    "State": "TN",
+    "E1": "†Sidney.McPhee@mtsu.edu",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Middlebury College",
+    "State": "VT",
+    "E1": "sneil@middlebury.edu",
+    "E2": "staciem@middlebury.edu",
+    "E3": "",
+    "E4": "hross@middlebury.edu",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Middlebury Institute of International Studies at Monterey",
+    "State": "CA",
+    "E1": "",
+    "E2": "jdaytonjohnson@miis.edu",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Middlesex Community College",
+    "State": "MA",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Middlesex Community College",
+    "State": "CT",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Middlesex County College",
+    "State": "NJ",
+    "E1": "MMcCormick@middlesexcc.edu",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Midland College",
+    "State": "TX",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Midland University",
+    "State": "NE",
+    "E1": "knoell@midlandu.edu",
+    "E2": "chatters@midlandu.edu",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Midlands Technical College",
+    "State": "SC",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Midstate College",
+    "State": "IL",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Midway University",
+    "State": "KY",
+    "E1": "jmarsden@midway.edu",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  },
+  {
+    "Name": "Midwest College of Oriental Medicine-Evanston",
+    "State": "IL",
+    "E1": "",
+    "E2": "",
+    "E3": "",
+    "E4": "",
+    "E5": "",
+    "E6": ""
+  }
+]
