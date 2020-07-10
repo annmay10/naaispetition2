@@ -1,7 +1,13 @@
 import React from "react";
-import {renderEmail, Email, Item, A} from 'react-html-email';
+import csvtest from "./csv/tempCSV.csv";
 
 export default class Form extends React.Component {
+
+    constructor(props){
+        super(props);
+        this.updateData = this.updateData.bind(this);
+    }
+
     state = {
         firstName: "",
         lastName: "",
@@ -9,27 +15,10 @@ export default class Form extends React.Component {
         email: "",
         university: "Select University",
         selectedOption: "",
-        submitted: false
+        submitted: false,
+        data: {}
     };
-    handleChange = e => {
-        let firstnames = [...this.state.firstName];
-        let lastnames = [...this.state.lastName];
-        let states = [...this.state.state];
-        let universities = [...this.state.university];
-        this.setState({ firstnames }, () => console.log(this.state.firstName));
-        this.setState({ lastnames }, () => console.log(this.state.firstName));
-        this.setState({ states }, () => console.log(this.state.email));
-        this.setState({ universities }, () => console.log(this.state.university));
 
-    };
-    addEntry = (e) => {
-        this.setState((prevState) => ({
-            firstnames: [...prevState.firstName, {firstName:""}],
-            lastnames: [...prevState.lastName, {lastName:""}],
-            states: [...prevState.state, {state:""}],
-            universities: [...prevState.university, {university: ""}]
-        }));
-    };
     onSubmit = e => {
         e.preventDefault();
         this.setState({submitted: true});
@@ -38,14 +27,21 @@ export default class Form extends React.Component {
     showEmail = () => {
         if(this.state.submitted === true) {
             var subject = "Petition";
-            var email = 'To Whom It May Concern,\n\n' + ((this.state.selectedOption === 'option1')? 'We' : 'I') + ', ' + this.state.firstName + ' of ' + this.state.university + ', ' + this.state.state + ' request this institution to sue the government and stand against the U.S. Immigration and Customs Enforcement (ICE) directive against international students' + '\n\nCall to Action:\nAs you are aware, Harvard University and MIT recently filed a lawsuit in federal court against the ICE directives announced on Monday, July 6, 2020. As of now, several institutions have jointly filed amicus briefs, including, but not limited to, Cornell University, Georgetown University, Northeastern University, Purdue University, and USC. Suing the Trump administration for their misguided policies is imperative to protect the globally acclaimed higher-level education system America prides itself upon. Moreover, filing an amicus brief will provide the opportunity for an institution like ours to advocate for its students in an instrumental manner. We urge you to realize that while other institutions are taking action, they cannot compensate for your silence. We need you to protect the diversity at your institution, to support the future of immigrant students, and to prevent international students from being denied their fundamental rights as members of this community.\n\nThe impact of the new ICE directive on campus: \n  -  Limits international students\' ability to attain an education safely by restricting online education, an exemption previously exercised in light of the growing Pandemic.\n  -  Unduly demands a highly contributive minority cohort to make abrupt life-changing decisions about education, employment, and economic goals based on discriminatory policy-making.\n  -  Discounts the enhanced struggle immunocompromised students would have to face with in-person classes in the midst of a public health crisis.\n  -  Overlooks conditions involving a dearth of resources such as stable internet, electricity, and space that students might be forced to face if they return to their home countries. These factors hinder both academic progress and stable mental health.\n\n\nThe adaptive measures being provided to international students to continue to be part of the institution are appreciated, but, we need you to do more. ICE’s announcement is the ultimate restriction for all international students around the United States.\n\n\nIt is imperative that this institution takes the necessary steps to stand against this injustice and join the legal battle against the Department of Homeland Security.\n\nRegards,\n' + this.state.firstName;// '[name/student organization & member names]'
-            var finalMsg = "mailto:someone@yoursite.com?subject=Big%20News&body=" + encodeURIComponent(email);
+            var userName = ((this.state.selectedOption === 'option1')? this.state.firstName : this.state.firstName + ' ' + this.state.lastName);
+            var email = 'To Whom It May Concern,\n\n' + ((this.state.selectedOption === 'option1')? 'We' : 'I') + ', ' + userName + ' of ' + this.state.university + ', ' + this.state.state + ' request this institution to sue the government and stand against the U.S. Immigration and Customs Enforcement (ICE) directive against international students' + '\n\nCall to Action:\nAs you are aware, Harvard University and MIT recently filed a lawsuit in federal court against the ICE directives announced on Monday, July 6, 2020. As of now, several institutions have jointly filed amicus briefs, including, but not limited to, Cornell University, Georgetown University, Northeastern University, Purdue University, and USC. Suing the Trump administration for their misguided policies is imperative to protect the globally acclaimed higher-level education system America prides itself upon. Moreover, filing an amicus brief will provide the opportunity for an institution like ours to advocate for its students in an instrumental manner. We urge you to realize that while other institutions are taking action, they cannot compensate for your silence. We need you to protect the diversity at your institution, to support the future of immigrant students, and to prevent international students from being denied their fundamental rights as members of this community.\n\nThe impact of the new ICE directive on campus: \n  -  Limits international students\' ability to attain an education safely by restricting online education, an exemption previously exercised in light of the growing Pandemic.\n  -  Unduly demands a highly contributive minority cohort to make abrupt life-changing decisions about education, employment, and economic goals based on discriminatory policy-making.\n  -  Discounts the enhanced struggle immunocompromised students would have to face with in-person classes in the midst of a public health crisis.\n  -  Overlooks conditions involving a dearth of resources such as stable internet, electricity, and space that students might be forced to face if they return to their home countries. These factors hinder both academic progress and stable mental health.\n\n\nThe adaptive measures being provided to international students to continue to be part of the institution are appreciated, but, we need you to do more. ICE’s announcement is the ultimate restriction for all international students around the United States.\n\n\nIt is imperative that this institution takes the necessary steps to stand against this injustice and join the legal battle against the Department of Homeland Security.\n\nRegards,\n' + userName;
+            var mailMsg = "mailto:someone@yoursite.com?subject=Big%20News&body=" + encodeURIComponent(email);
             var gmailMsg = "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=target@email.com" + "&su=" + subject + "&body=" + encodeURIComponent(email);
 
             return (
                 <div>
-                    <a href={finalMsg}>Open in Mail</a>
-                    <a href={gmailMsg}>Open in Gmail</a>
+                    <div className="ui labeled icon button">
+                        <i class="envelope icon"></i>
+                        <a href={mailMsg}>Open in Mail</a>
+                    </div>
+                    <div className="ui button">
+                        <i className="google icon"></i>
+                        <a href={gmailMsg}>Open in Gmail</a>
+                    </div>
                 </div>
             )
         }
@@ -74,59 +70,104 @@ export default class Form extends React.Component {
         });
     };
 
-    handleOptionChange = (changeEvent) => {
-        this.setState({
-            selectedOption: changeEvent.target.value
-        });
-    }
-
     onChangeName(event) {
         console.log(event.target.value);
         this.setState({firstName: event.target.value})
     }
 
+    onChangeLastName(event) {
+        console.log(event.target.value);
+        this.setState({lastName: event.target.value})
+    }
+
+    handleUserChange = (event) => {
+        console.log(event.target.value);
+        this.setState({selectedOption: event.target.value})
+    };
+
     handleUniChange = (event) => {
         console.log(event.target.value);
         this.setState({university: event.target.value})
-    }
+    };
 
     handleStateChange = (event) => {
         console.log(event.target.value);
         this.setState({state: event.target.value})
+    };
+
+    namePicker = () => {
+        console.log("name picker");
+        if(this.state.selectedOption === 'option1'){
+            return(
+                <div className="fields" style={{display: 'flex', justifyContent: 'center'}}>
+                    <div className="field">
+                        <label>Name of Organization</label>
+                        <input type="text" name="Org-name" placeholder="type here.." onChange={this.onChangeName.bind(this)}/>
+                    </div>
+                </div>
+            )
+        }else if(this.state.selectedOption === 'option2'){
+            return(
+                <div className="two fields">
+                    <div className="field">
+                        <label>First Name</label>
+                        <input type="text" name="first-name" placeholder="type here.." onChange={this.onChangeName.bind(this)}/>
+                    </div>
+                    <div className="field">
+                        <label>Last Name</label>
+                        <input type="text" name="last-name" placeholder="type here.." onChange={this.onChangeLastName.bind(this)}/>
+                    </div>
+                </div>
+            )
+        }
+    };
+
+    csvReader = () =>{
+        console.log("check")
+        if(Object.keys(this.state.data).length == 0) {
+            console.log("About to parse csv");
+            const fs = require('fs');
+            // const file = fs.createReadStream("./csv/tempCSV.csv");
+            var csvFilePath = require("./csv/tempCSV.csv");
+            var Papa = require("papaparse/papaparse.min.js");
+            Papa.parse(csvtest, {
+                header: true,
+                skipEmptyLines: true,
+                complete: this.updateData
+            });
+        }else{
+            console.log(this.state.data);
+        }
+
+    };
+
+    updateData(result, file) {
+        console.log("printing result");
+        console.log(file);
+        console.log(result);
+        console.log(result.data);
+        const data = result.data;
+        this.setState({data: data}); // or shorter ES syntax: this.setState({ data });
     }
 
     render() {
         return (
             <div className="form">
+                {this.csvReader()}
                 <form className="ui huge form">
-                    <h1 className="ui center aligned dividing header">
+                    <h1 className="ui red center aligned dividing header">
                         Fill out this form for an email template to send to your school authorities!
                     </h1>
-                    <div className="two fields">
-                        <div className="required field">
-                        <label>First Name</label>
-                        <input type="text" name="first-name" placeholder="type here.." onChange={this.onChangeName.bind(this)}/>
-                        </div>
-                        <div className="required field">
-                            <label>Last Name</label>
-                            <input type="text" name="last-name" placeholder="type here.."/>
-                        </div>
+                    <div className="ui sub header">
+                        Please select which describes you best
                     </div>
-                    <div className="inline fields">
-                        <label htmlFor="fruit">Select which desribes you best:</label>
-                        <div className="field">
-                            <div className="ui radio checkbox">
-                                <input type="radio" name="user" value ="option1" checked={this.state.selectedOption === 'option1'} tabIndex="0" onChange={this.handleOptionChange}/>
-                                    <label>Student org/club</label>
-                            </div>
-                        </div>
-                        <div className="field">
-                            <div className="ui radio checkbox">
-                                <input type="radio" name="user" value="option2" checked={this.state.selectedOption === 'option2'} tabIndex="0" onChange={this.handleOptionChange}/>
-                                    <label>Individual student</label>
-                            </div>
-                        </div>
-                    </div>
+                    <select className="ui fluid search dropdown" style={{fontSize: '17px', padding: 0}} onChange={this.handleUserChange}>
+                        <option value="">Select an option</option>
+                        <option value="option1">Student Organization</option>
+                        <option value="option2">Individual</option>
+                    </select>
+
+                    {this.namePicker()}
                     <div className="ui sub header">
                         State
                     </div>
