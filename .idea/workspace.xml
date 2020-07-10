@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90496084-ee5d-440e-ae68-1f5f680dc7b1" name="Default Changelist" comment="Added arrays to store data">
+    <list default="true" id="90496084-ee5d-440e-ae68-1f5f680dc7b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/csv/tempCSV.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/csv/tempCSV.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unis.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/unis.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +88,14 @@
       <workItem from="1594281344426" duration="2139000" />
       <workItem from="1594309650104" duration="3528000" />
     </task>
+    <task id="LOCAL-00001" summary="Made spaces changes, changed uni dropdown and added media">
+      <created>1594393585902</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594393585902</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,33 +103,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added arrays to store data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added arrays to store data" />
+    <MESSAGE value="Made spaces changes, changed uni dropdown and added media" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made spaces changes, changed uni dropdown and added media" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="301" y="55" key="CommitChangelistDialog2" timestamp="1594318376745">
+    <state x="301" y="55" key="CommitChangelistDialog2" timestamp="1594393585722">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="301" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1594318376745" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1594392205461">
+    <state x="301" y="55" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1594393585722" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1594394234250">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594392205461" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1594392205460">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594394234250" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1594394234248">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1594392205460" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1594392205459">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1594394234248" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1594394234247">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1594392205459" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1594392205461">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1594394234247" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1594394234249">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1594392205461" />
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1594284793986">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1594394234249" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1594393590656">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1594284793986" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1594393590656" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1594367095542">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
