@@ -27,7 +27,9 @@ class App extends Component {
             <h5> None of the information entered here will ever be stored. All processing is done client-side.</h5>
             <Form onChange={fields => this.onChange(fields)} />
             <div className="ui fluid image">
+                <a href="https://naais.org">
                 <img src={require('./images/naaispetition.png')} style = {{padding:10, margin:10}}/>
+                </a>
             </div>
             <div>
                 <h4>Powered by the <a href="https://naais.org">North American Association of Indian Students</a>.</h4>
