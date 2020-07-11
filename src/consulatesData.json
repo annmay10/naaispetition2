@@ -1,0 +1,33 @@
+[
+  {
+    "Location": "Atlanta",
+    "E1": "cons.atlanta@mea.gov.in",
+    "E2": "pol.atlanta@mea.gov.in",
+    "E3": "visa.atlanta@mea.gov.in"
+  },
+  {
+    "Location": "Chicago",
+    "E1": "visa.chicago@mea.gov.in",
+    "E2": "cg.chicago@mea.gov.in"
+  },
+  {
+    "Location": "Houston",
+    "E1": "enquiriescgi@swbell.net",
+    "E2": "cg.houston@mea.gov.in"
+  },
+  {
+    "Location": "New York",
+    "E1": "visa.newyork@mea.gov.in",
+    "E2": "cg.newyork@mea.gov.in"
+  },
+  {
+    "Location": "Washington DC",
+    "E1": "cons4.washington@mea.gov.in",
+    "E2": "visa.washington@mea.gov.in"
+  },
+  {
+    "Location": "San Francisco",
+    "E1": "oci2.sf@mea.gov.in",
+    "E2": "cg.sf@mea.gov.in"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "State": "Karnataka",
+    "Constituency": "c1",
+    "E1": "abcC1@xyz.com",
+    "E2": "xyzC1@xyz.com"
+  },
+  {
+    "State": "Karnataka",
+    "Constituency": "c2",
+    "E1": "abcC2@xyz.com",
+    "E2": "xyzC2@xyz.com"
+  },
+  {
+    "State": "Delhi",
+    "Constituency": "del",
+    "E1": "abcDel@xyz.com",
+    "E2": "xyzDel@xyz.com"
+  }
+]
